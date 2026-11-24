@@ -1,4 +1,4 @@
-import type { Experience } from './types'
+import type { Experience } from './types.ts'
 
 /** Newest first. */
 export const experience: Experience[] = [

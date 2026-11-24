@@ -23,6 +23,8 @@ All content lives in `src/data/`:
 | `skills.ts` | Skill groups (bento cards). The marquee is generated from these |
 | `credentials.ts` | Certifications, education, awards |
 
+Search engine data (structured data, a plain-HTML copy of the content, and `sitemap.xml`) is generated from these same files at build time by `scripts/seo.ts`, so it stays in sync automatically.
+
 ### Add a project
 Copy an object in `src/data/projects.ts`, change the `slug` (must be unique) and fill in the fields.
 Optional: `image: '/projects/my-shot.png'` (put the file in `public/projects/`), `links`, `badge`, `featured: true`.

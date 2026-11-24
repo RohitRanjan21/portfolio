@@ -1,4 +1,4 @@
-import type { SkillGroup } from './types'
+import type { SkillGroup } from './types.ts'
 
 /** Icons available: code, layout, server, database, cloud, ai, tools, cpu */
 export const skillGroups: SkillGroup[] = [

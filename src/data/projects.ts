@@ -1,4 +1,4 @@
-import type { Project } from './types'
+import type { Project } from './types.ts'
 
 /**
  * Add a new project by copying any object below and editing it.

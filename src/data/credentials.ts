@@ -1,4 +1,4 @@
-import type { Award, Certification, Education } from './types'
+import type { Award, Certification, Education } from './types.ts'
 
 /**
  * Add certifications here as you earn them. Example:
