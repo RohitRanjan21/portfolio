@@ -73,7 +73,7 @@ export const projects: Project[] = [
     title: 'Broker E-IPO Integration',
     tagline: 'In-app IPO applications via UPI mandate (ASBA)',
     description:
-      'Integration with a SEBI-registered broker’s E-IPO APIs so users can place, modify and cancel IPO applications across multiple accounts — securely, with every order reconciled.',
+      'Integration with a SEBI-registered broker’s E-IPO APIs so users can place, modify and cancel IPO applications across multiple accounts securely, with every order reconciled.',
     category: 'Fintech',
     year: '2026',
     accent: '#f59e0b',
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     description:
       'A scalable cart handling complex state, dynamic pricing, product configurations, validations and conditional workflows across product and checkout flows for customers in 25+ countries.',
     category: 'E-commerce',
-    year: '2023–26',
+    year: '2023-26',
     accent: '#f472b6',
     highlights: [
       'Normalized cart state with Redux for configurable products',
@@ -113,7 +113,7 @@ export const projects: Project[] = [
     description:
       'Contributed to an event-driven architecture built on Lambda, SQS and EventBridge, powering real-time updates across the e-commerce platform.',
     category: 'E-commerce',
-    year: '2023–26',
+    year: '2023-26',
     accent: '#34d399',
     highlights: [
       'Loosely coupled workflows on Lambda, SQS and EventBridge',

@@ -6,7 +6,7 @@ export const experience: Experience[] = [
     role: 'Full Stack Software Developer',
     company: 'Nano Kernel Ltd.',
     location: 'Bangalore, India',
-    period: 'Jul 2026 — Present',
+    period: 'Jul 2026 - Present',
     summary: 'Architecting IPOYPO, a fintech IPO platform built to scale to 500K+ users.',
     highlights: [
       'Designed the end-to-end architecture and owned 8+ modules across a React PWA and a NestJS (Fastify) modular monolith, split into independently scalable API and worker services on AWS.',
@@ -20,7 +20,7 @@ export const experience: Experience[] = [
     role: 'Software Engineer (Intern → Full-time)',
     company: 'Cimpress',
     location: 'Remote, India',
-    period: 'Feb 2023 — Apr 2026',
+    period: 'Feb 2023 - Apr 2026',
     summary: 'Customer-facing features for a global e-commerce platform serving ~100K users a month.',
     highlights: [
       'Built core e-commerce flows (product listing, product detail, checkout, homepage) with React, Redux and TypeScript, plus a library of reusable Tailwind components.',

@@ -41,7 +41,7 @@ export interface Project {
   title: string
   tagline: string
   description: string
-  /** Used for the filter chips. Any string works — new categories appear automatically. */
+  /** Used for the filter chips. Any string works, and new categories appear automatically. */
   category: string
   year: string
   role?: string

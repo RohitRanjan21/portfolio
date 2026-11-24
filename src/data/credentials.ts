@@ -4,7 +4,7 @@ import type { Award, Certification, Education } from './types'
  * Add certifications here as you earn them. Example:
  *
  * {
- *   name: 'AWS Certified Developer – Associate',
+ *   name: 'AWS Certified Developer - Associate',
  *   issuer: 'Amazon Web Services',
  *   date: 'Jan 2027',
  *   url: 'https://www.credly.com/badges/…',
@@ -18,7 +18,7 @@ export const education: Education[] = [
   {
     school: 'Bangalore Institute of Technology',
     degree: 'B.E. in Computer Science',
-    period: '2019 — 2023',
+    period: '2019 - 2023',
     location: 'Bangalore, India',
     detail: 'CGPA 9.0 / 10',
   },

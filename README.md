@@ -1,4 +1,4 @@
-# Rohit Ranjan — Portfolio
+# Rohit Ranjan - Portfolio
 
 Vite + React + TypeScript + Tailwind CSS v4 + Motion (Framer Motion) + Lenis smooth scroll.
 
@@ -20,7 +20,7 @@ All content lives in `src/data/`:
 | `profile.ts` | Name, tagline, about text, stats, email, socials, résumé link, availability badge |
 | `experience.ts` | Timeline jobs (newest first) |
 | `projects.ts` | Project cards + the detail modal. New `category` values become filter chips automatically |
-| `skills.ts` | Skill groups (bento cards) — the marquee is generated from these |
+| `skills.ts` | Skill groups (bento cards). The marquee is generated from these |
 | `credentials.ts` | Certifications, education, awards |
 
 ### Add a project
@@ -29,12 +29,12 @@ Optional: `image: '/projects/my-shot.png'` (put the file in `public/projects/`),
 Without an image, a generative cover is drawn from `accent`.
 
 ### Add a certification
-Add an entry to `certifications` in `src/data/credentials.ts` — the "in progress" placeholder disappears automatically.
+Add an entry to `certifications` in `src/data/credentials.ts` and the "in progress" placeholder disappears automatically.
 
 ### Add a résumé download button
 Drop your PDF at `public/resume.pdf` and set `resume: '/resume.pdf'` in `profile.ts`.
 
-## Deploy on your own domain (Vercel — free)
+## Deploy on your own domain (Vercel, free)
 
 1. Push this folder to a GitHub repo.
 2. On [vercel.com](https://vercel.com) → **Add New → Project** → import the repo. Framework preset **Vite** is detected; no settings to change.
